@@ -53,7 +53,7 @@ class GildedRose
   end
 end
 
-class Item
+class GildedRose::Item
   attr_accessor :name, :sell_in, :quality
 
   def initialize(name, sell_in, quality)
